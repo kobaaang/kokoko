@@ -1,0 +1,157 @@
+@charset "UTF-8";
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+#content_wrap { 
+    max-width:640px; min-width:320px; margin:auto;  
+}
+/*header*/
+header{
+    height:90px;
+}
+header h1{
+    padding-left: 15px;
+    margin-top:20px;
+    padding-bottom: 9px;
+}
+header ul{
+    width:100%;
+    float: right;
+    margin-top: -35px
+}
+header li{
+    margin-right:20px;
+    float: right;
+    margin-top:-20px
+}
+.header_border img{
+    width:100%;
+    padding-top:13px
+}
+/* /header */
+
+/*main img*/
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
+
+
+
+/* service*/
+.service{
+    height:200px;
+
+}
+.service ul{
+    display: flex;
+    justify-content: space-between;
+}
+.service ul{
+    padding-left:13px;
+    padding-right:13px;
+    padding-top:13px
+
+
+}
+
+/*/service*/
+
+
+/*main_info*/
+.main_info{
+    height:250px;
+
+}
+.main_info ul{
+    display: flex;
+}
+.main_info li{
+    width:33.33%
+}
+
+/*/main_info*/
+
+/*quick_menu*/
+.quick_menu{
+
+    width:100%;
+    height:310px
+}
+.quick_menu div{
+    width:100%;
+    height:100px;
+
+}
+.quick_menu div img{
+   
+    width:100%
+}
+.quick_menu ul{
+    display: flex;
+
+    justify-content: space-between;
+}
+.quick_menu li{
+    padding-left: 15px;
+    padding-right:15px
+}
+
+/*  /quick_menu*/
+
+/*footer*/
+footer{
+    height:200px;
+
+}
+
+.footer_banner{
+position: relative;
+height:50px
+}
+.footer_banner img{
+    width:100%;
+    height:50px;
+
+    position: absolute;
+    z-index: -1;
+}
+.footer_banner p{
+    padding-left: 90px;
+    padding-top:17px;
+    color:white
+}
+.footer_txt{
+    
+    height:150px;
+
+    
+}
+.footer_txt h4{
+    padding-top:30px;
+    text-align: center;
+}
+.footer_txt h4 span{
+    color:orangered
+}
+.footer_txt p{
+    text-align: center;
+    padding-top:10px
+}
