@@ -3,7 +3,10 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 #content_wrap { 
-    max-width:640px; min-width:320px; margin:auto;  
+    max-width:640px; min-width:360px; margin:auto;  
+}
+li a img{
+    width: 100%;
 }
 /*header*/
 header{
@@ -32,8 +35,8 @@ header li{
 
 /*main img*/
     .swiper {
-      width: 100%;
-      height: 100%;
+        width: 100%;
+        height: 100%;
     }
 
     .swiper-slide {
@@ -83,9 +86,7 @@ header li{
 .main_info ul{
     display: flex;
 }
-.main_info li{
-    width:33.33%
-}
+
 
 /*/main_info*/
 
